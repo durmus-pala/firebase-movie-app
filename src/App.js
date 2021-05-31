@@ -1,9 +1,13 @@
-import React from 'react';
+import React from "react";
+import AppRouter from "./router/Router";
+import AuthContextProvider from "./context/AuthContext";
 
 function App() {
   return (
     <div className="App">
-     FIREBASE MOVIE APP
+      <AuthContextProvider>
+        <AppRouter />
+      </AuthContextProvider>
     </div>
   );
 }
