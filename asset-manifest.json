@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/firebase-movie-app/static/css/main.2ae47eeb.chunk.css",
+    "main.js": "/firebase-movie-app/static/js/main.077fceb3.chunk.js",
+    "main.js.map": "/firebase-movie-app/static/js/main.077fceb3.chunk.js.map",
+    "runtime-main.js": "/firebase-movie-app/static/js/runtime-main.f9f99189.js",
+    "runtime-main.js.map": "/firebase-movie-app/static/js/runtime-main.f9f99189.js.map",
+    "static/js/2.9182a690.chunk.js": "/firebase-movie-app/static/js/2.9182a690.chunk.js",
+    "static/js/2.9182a690.chunk.js.map": "/firebase-movie-app/static/js/2.9182a690.chunk.js.map",
+    "static/js/3.1e0854cc.chunk.js": "/firebase-movie-app/static/js/3.1e0854cc.chunk.js",
+    "static/js/3.1e0854cc.chunk.js.map": "/firebase-movie-app/static/js/3.1e0854cc.chunk.js.map",
+    "index.html": "/firebase-movie-app/index.html",
+    "static/css/main.2ae47eeb.chunk.css.map": "/firebase-movie-app/static/css/main.2ae47eeb.chunk.css.map",
+    "static/js/2.9182a690.chunk.js.LICENSE.txt": "/firebase-movie-app/static/js/2.9182a690.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.f9f99189.js",
+    "static/js/2.9182a690.chunk.js",
+    "static/css/main.2ae47eeb.chunk.css",
+    "static/js/main.077fceb3.chunk.js"
+  ]
+}
