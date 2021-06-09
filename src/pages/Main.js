@@ -8,7 +8,6 @@ const SEARCH_API =
 
 const Main = () => {
   const [movies, setMovies] = useState([]);
-  console.log(movies);
   const [searchTerm, setSearchTerm] = useState("");
 
   useEffect(() => {
@@ -40,7 +39,7 @@ const Main = () => {
       </form>
       <div className="movie-container">
         {movies.map((movie) => (
-          <MovieCard {...movie} />
+          <MovieCard key={movie.id} {...movie} />
         ))}
       </div>
     </div>
