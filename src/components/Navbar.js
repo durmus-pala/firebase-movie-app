@@ -1,16 +1,18 @@
 import React, { useContext } from "react";
 import { useHistory } from "react-router-dom";
 import { AuthContext } from "../context/AuthContext";
+import { SignOut } from "../auth/firebase";
 
 const Navbar = () => {
   const history = useHistory();
+
   const { currentUser } = useContext(AuthContext);
 
   return (
     <div>
-      <nav class="navbar navbar-expand-lg navbar-light bg-light">
-        <div class="container-fluid">
-          <a class="navbar-brand" href="/" style={{ color: "white" }}>
+      <nav className="navbar navbar-expand-lg navbar-light bg-light">
+        <div className="container-fluid">
+          <a className="navbar-brand" href="/" style={{ color: "white" }}>
             React Movie App
           </a>
           <div className="buttons">
@@ -30,7 +32,7 @@ const Navbar = () => {
               <button
                 type="button"
                 class="ms-2 btn btn-outline-light"
-                onClick={() => null}
+                onClick={() => SignOut()}
               >
                 Logout
               </button>
